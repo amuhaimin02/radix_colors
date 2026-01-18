@@ -108,6 +108,22 @@ class RadixColorsDynamic {
     return _isDark ? indigoDarkAScale : indigoAScale;
   }
 
+  RadixColor get iris {
+    return _isDark ? irisDarkScale : irisScale;
+  }
+
+  RadixColor get irisA {
+    return _isDark ? irisDarkAScale : irisAScale;
+  }
+
+  RadixColor get jade {
+    return _isDark ? jadeDarkScale : jadeScale;
+  }
+
+  RadixColor get jadeA {
+    return _isDark ? jadeDarkAScale : jadeAScale;
+  }
+
   RadixColor get lime {
     return _isDark ? limeDarkScale : limeScale;
   }
@@ -178,6 +194,14 @@ class RadixColorsDynamic {
 
   RadixColor get redA {
     return _isDark ? redDarkAScale : redAScale;
+  }
+
+  RadixColor get ruby {
+    return _isDark ? rubyDarkScale : rubyScale;
+  }
+
+  RadixColor get rubyA {
+    return _isDark ? rubyDarkAScale : rubyAScale;
   }
 
   RadixColor get sage {
@@ -257,53 +281,28 @@ class RadixColorsDynamic {
         sand,
         tomato,
         red,
+        ruby,
         crimson,
         pink,
         plum,
         purple,
         violet,
+        iris,
         indigo,
         blue,
         cyan,
         teal,
+        jade,
         green,
         grass,
-        brown,
-        orange,
-        sky,
-        mint,
-        lime,
-        yellow,
-        amber,
+        bronze,
         gold,
         brown,
-        grayA,
-        mauveA,
-        slateA,
-        sageA,
-        oliveA,
-        sandA,
-        tomatoA,
-        redA,
-        crimsonA,
-        pinkA,
-        plumA,
-        purpleA,
-        violetA,
-        indigoA,
-        blueA,
-        cyanA,
-        tealA,
-        greenA,
-        grassA,
-        brownA,
-        orangeA,
-        skyA,
-        mintA,
-        limeA,
-        yellowA,
-        amberA,
-        goldA,
-        brownA,
+        orange,
+        amber,
+        yellow,
+        lime,
+        mint,
+        sky,
       ];
 }
