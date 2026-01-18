@@ -187,12 +187,6 @@ class RadixColors {
   static const Color transparent = Colors.transparent;
 
   static List<RadixColor> get primaries => [
-        gray,
-        mauve,
-        slate,
-        sage,
-        olive,
-        sand,
         tomato,
         red,
         ruby,
@@ -218,5 +212,14 @@ class RadixColors {
         lime,
         mint,
         sky,
+      ];
+
+  static List<RadixColor> get neutrals => [
+        gray,
+        mauve,
+        slate,
+        sage,
+        olive,
+        sand,
       ];
 }

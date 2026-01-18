@@ -127,4 +127,41 @@ class RadixColorsDark {
   final RadixColor yellow = yellowDarkScale;
 
   final RadixColor yellowA = yellowDarkAScale;
+
+  List<RadixColor> get primaries => [
+        tomato,
+        red,
+        ruby,
+        crimson,
+        pink,
+        plum,
+        purple,
+        violet,
+        iris,
+        indigo,
+        blue,
+        cyan,
+        teal,
+        jade,
+        green,
+        grass,
+        bronze,
+        gold,
+        brown,
+        orange,
+        amber,
+        yellow,
+        lime,
+        mint,
+        sky,
+      ];
+
+  List<RadixColor> get neutrals => [
+        gray,
+        mauve,
+        slate,
+        sage,
+        olive,
+        sand,
+      ];
 }

@@ -273,12 +273,6 @@ class RadixColorsDynamic {
   }
 
   List<RadixColor> get primaries => [
-        gray,
-        mauve,
-        slate,
-        sage,
-        olive,
-        sand,
         tomato,
         red,
         ruby,
@@ -304,5 +298,14 @@ class RadixColorsDynamic {
         lime,
         mint,
         sky,
+      ];
+
+  List<RadixColor> get neutrals => [
+        gray,
+        mauve,
+        slate,
+        sage,
+        olive,
+        sand,
       ];
 }
