@@ -2302,7 +2302,7 @@ const violetDarkAScale = RadixColor(
 );
 
 const whiteAScale = RadixColor(
-  0xb3ffffff,
+  0xf2ffffff,
   <int, Color>{
     1: Color(0x0dffffff),
     2: Color(0x1affffff),
