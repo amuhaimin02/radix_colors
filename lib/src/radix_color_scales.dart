@@ -857,6 +857,158 @@ const indigoDarkAScale = RadixColor(
   name: "indigoDarkA",
 );
 
+const irisScale = RadixColor(
+  0xff5b5bd6,
+  <int, Color>{
+    1: Color(0xfffdfdff),
+    2: Color(0xfff8f8ff),
+    3: Color(0xfff0f1fe),
+    4: Color(0xffe6e7ff),
+    5: Color(0xffdadcff),
+    6: Color(0xffcbcdff),
+    7: Color(0xffb8baf8),
+    8: Color(0xff9b9ef0),
+    9: Color(0xff5b5bd6),
+    10: Color(0xff5151cd),
+    11: Color(0xff5753c6),
+    12: Color(0xff272962),
+  },
+  name: "iris",
+);
+
+const irisAScale = RadixColor(
+  0xa40000c0,
+  <int, Color>{
+    1: Color(0x020000ff),
+    2: Color(0x070000ff),
+    3: Color(0x0f0011ee),
+    4: Color(0x19000bff),
+    5: Color(0x25000eff),
+    6: Color(0x34000aff),
+    7: Color(0x470008e6),
+    8: Color(0x640008d9),
+    9: Color(0xa40000c0),
+    10: Color(0xae0000b6),
+    11: Color(0xac0600ab),
+    12: Color(0xd8000246),
+  },
+  name: "irisA",
+);
+
+const irisDarkScale = RadixColor(
+  0xff5b5bd6,
+  <int, Color>{
+    1: Color(0xff13131e),
+    2: Color(0xff171625),
+    3: Color(0xff202248),
+    4: Color(0xff262a65),
+    5: Color(0xff303374),
+    6: Color(0xff3d3e82),
+    7: Color(0xff4a4a95),
+    8: Color(0xff5958b1),
+    9: Color(0xff5b5bd6),
+    10: Color(0xff6e6ade),
+    11: Color(0xffb1a9ff),
+    12: Color(0xffe0dffe),
+  },
+  name: "irisDark",
+);
+
+const irisDarkAScale = RadixColor(
+  0xd46a6afe,
+  <int, Color>{
+    1: Color(0x0e3636fe),
+    2: Color(0x16564bf9),
+    3: Color(0x3b525bff),
+    4: Color(0x5a4d58ff),
+    5: Color(0x6b5b62fd),
+    6: Color(0x7a6d6ffd),
+    7: Color(0x8e7777fe),
+    8: Color(0xac7b7afe),
+    9: Color(0xd46a6afe),
+    10: Color(0xdc7d79ff),
+    11: Color(0xffb1a9ff),
+    12: Color(0xfee1e0ff),
+  },
+  name: "irisDarkA",
+);
+
+const jadeScale = RadixColor(
+  0xff29a383,
+  <int, Color>{
+    1: Color(0xfffbfefd),
+    2: Color(0xfff4fbf7),
+    3: Color(0xffe6f7ed),
+    4: Color(0xffd6f1e3),
+    5: Color(0xffc3e9d7),
+    6: Color(0xffacdec8),
+    7: Color(0xff8bceb6),
+    8: Color(0xff56ba9f),
+    9: Color(0xff29a383),
+    10: Color(0xff26997b),
+    11: Color(0xff208368),
+    12: Color(0xff1d3b31),
+  },
+  name: "jade",
+);
+
+const jadeAScale = RadixColor(
+  0xd600916b,
+  <int, Color>{
+    1: Color(0x0400c080),
+    2: Color(0x0b00a346),
+    3: Color(0x1900ae48),
+    4: Color(0x2900a851),
+    5: Color(0x3c00a255),
+    6: Color(0x53009a57),
+    7: Color(0x7400945f),
+    8: Color(0xa900976e),
+    9: Color(0xd600916b),
+    10: Color(0xd9008764),
+    11: Color(0xdf007152),
+    12: Color(0xe2002217),
+  },
+  name: "jadeA",
+);
+
+const jadeDarkScale = RadixColor(
+  0xff29a383,
+  <int, Color>{
+    1: Color(0xff0d1512),
+    2: Color(0xff121c18),
+    3: Color(0xff0f2e22),
+    4: Color(0xff0b3b2c),
+    5: Color(0xff114837),
+    6: Color(0xff1b5745),
+    7: Color(0xff246854),
+    8: Color(0xff2a7e68),
+    9: Color(0xff29a383),
+    10: Color(0xff27b08b),
+    11: Color(0xff1fd8a4),
+    12: Color(0xffadf0d4),
+  },
+  name: "jadeDark",
+);
+
+const jadeDarkAScale = RadixColor(
+  0x9d38feca,
+  <int, Color>{
+    1: Color(0x0500de45),
+    2: Color(0x0c27fba6),
+    3: Color(0x2002f999),
+    4: Color(0x2d00ffaa),
+    5: Color(0x3b11ffb6),
+    6: Color(0x4b34ffc2),
+    7: Color(0x5e45fdc7),
+    8: Color(0x7548ffcf),
+    9: Color(0x9d38feca),
+    10: Color(0xab31fec7),
+    11: Color(0xd621fec0),
+    12: Color(0xefb8ffe1),
+  },
+  name: "jadeDarkA",
+);
+
 const limeScale = RadixColor(
   0xffbdee63,
   <int, Color>{
@@ -1539,6 +1691,82 @@ const redDarkAScale = RadixColor(
     12: Color(0xffffd1d9),
   },
   name: "redDarkA",
+);
+
+const rubyScale = RadixColor(
+  0xffe54666,
+  <int, Color>{
+    1: Color(0xfffffcfd),
+    2: Color(0xfffff7f8),
+    3: Color(0xfffeeaed),
+    4: Color(0xffffdce1),
+    5: Color(0xffffced6),
+    6: Color(0xfff8bfc8),
+    7: Color(0xffefacb8),
+    8: Color(0xffe592a3),
+    9: Color(0xffe54666),
+    10: Color(0xffdc3b5d),
+    11: Color(0xffca244d),
+    12: Color(0xff64172b),
+  },
+  name: "ruby",
+);
+
+const rubyAScale = RadixColor(
+  0xb9db002c,
+  <int, Color>{
+    1: Color(0x03ff0055),
+    2: Color(0x08ff0020),
+    3: Color(0x15f30025),
+    4: Color(0x23ff0025),
+    5: Color(0x31ff002a),
+    6: Color(0x40e40024),
+    7: Color(0x53ce0025),
+    8: Color(0x6dc30028),
+    9: Color(0xb9db002c),
+    10: Color(0xc4d2002c),
+    11: Color(0xdbc10030),
+    12: Color(0xe8550016),
+  },
+  name: "rubyA",
+);
+
+const rubyDarkScale = RadixColor(
+  0xffe54666,
+  <int, Color>{
+    1: Color(0xff191113),
+    2: Color(0xff1e1517),
+    3: Color(0xff3a141e),
+    4: Color(0xff4e1325),
+    5: Color(0xff5e1a2e),
+    6: Color(0xff6f2539),
+    7: Color(0xff883447),
+    8: Color(0xffb3445a),
+    9: Color(0xffe54666),
+    10: Color(0xffec5a72),
+    11: Color(0xffff949d),
+    12: Color(0xfffed2e1),
+  },
+  name: "rubyDark",
+);
+
+const rubyDarkAScale = RadixColor(
+  0xe4fe4c70,
+  <int, Color>{
+    1: Color(0x09f4124a),
+    2: Color(0x0efe5a7f),
+    3: Color(0x2cff235d),
+    4: Color(0x42fd195e),
+    5: Color(0x53fe2d6b),
+    6: Color(0x65ff4476),
+    7: Color(0x80ff577d),
+    8: Color(0xaeff5c7c),
+    9: Color(0xe4fe4c70),
+    10: Color(0xebff617b),
+    11: Color(0xffff949d),
+    12: Color(0xfeffd3e2),
+  },
+  name: "rubyDarkA",
 );
 
 const sageScale = RadixColor(
