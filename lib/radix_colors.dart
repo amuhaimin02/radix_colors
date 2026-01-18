@@ -102,6 +102,14 @@ class RadixColors {
 
   static const RadixColor indigoA = indigoAScale;
 
+  static const RadixColor iris = irisScale;
+
+  static const RadixColor irisA = irisAScale;
+
+  static const RadixColor jade = jadeScale;
+
+  static const RadixColor jadeA = jadeAScale;
+
   static const RadixColor lime = limeScale;
 
   static const RadixColor limeA = limeAScale;
@@ -137,6 +145,10 @@ class RadixColors {
   static const RadixColor red = redScale;
 
   static const RadixColor redA = redAScale;
+
+  static const RadixColor ruby = rubyScale;
+
+  static const RadixColor rubyA = rubyAScale;
 
   static const RadixColor sage = sageScale;
 
@@ -183,53 +195,28 @@ class RadixColors {
         sand,
         tomato,
         red,
+        ruby,
         crimson,
         pink,
         plum,
         purple,
         violet,
+        iris,
         indigo,
         blue,
         cyan,
         teal,
+        jade,
         green,
         grass,
-        brown,
-        orange,
-        sky,
-        mint,
-        lime,
-        yellow,
-        amber,
+        bronze,
         gold,
         brown,
-        grayA,
-        mauveA,
-        slateA,
-        sageA,
-        oliveA,
-        sandA,
-        tomatoA,
-        redA,
-        crimsonA,
-        pinkA,
-        plumA,
-        purpleA,
-        violetA,
-        indigoA,
-        blueA,
-        cyanA,
-        tealA,
-        greenA,
-        grassA,
-        brownA,
-        orangeA,
-        skyA,
-        mintA,
-        limeA,
-        yellowA,
-        amberA,
-        goldA,
-        brownA,
+        orange,
+        amber,
+        yellow,
+        lime,
+        mint,
+        sky,
       ];
 }
