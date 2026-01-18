@@ -124,7 +124,10 @@ class _MyAppState extends State<MyApp> {
                     const SizedBox(height: 80),
                     colorSteps(),
                     const SizedBox(height: 6),
-                    ...RadixColorsDynamic(context).primaries.map((color) {
+                    ...[
+                      ...RadixColorsDynamic(context).neutrals,
+                      ...RadixColorsDynamic(context).primaries
+                    ].map((color) {
                       return colorBlock(
                           "${color.name?.substring(0, 1).toUpperCase()}${color.name?.substring(1, color.name?.length)}",
                           color);
